@@ -1,4 +1,4 @@
-## Directory Scanner
+## The Directory Scanner
 
 The Directory Scanner is a Python library designed to simplify the process of scanning directory structures and generating a comprehensive list of files and folders. It provides a convenient way to recursively traverse directories, ignoring specific files and folders specified by the user.
 
@@ -11,12 +11,12 @@ The Directory Scanner is a Python library designed to simplify the process of sc
 ### Usage:
 1. Install the library using pip:
     ```
-    pip install directory-scanner
+    pip install the-directory-scanner
     ```
 
 2. Import the `scan_directory` function from the library and use it to scan a directory:
     ```python
-   from directory_scanner import scan_directory
+   from the_directory_scanner import scan_directory
    
    scan_result = scan_directory(directory=".", output_file_name="directory_structure.txt",
                                 ignored_items=('.git', '.idea', 'venv', '__pycache__',))
@@ -25,7 +25,7 @@ The Directory Scanner is a Python library designed to simplify the process of sc
 
 4. If you wish to modify the structure, import `prettify_structure` function and provide the path to generated file:
    ```python
-   from directory_scanner import scan_directory, prettify_structure
+   from the_directory_scanner import scan_directory, prettify_structure
    
    scan_result = scan_directory(directory=".", output_file_name="directory_structure.txt",
                                 ignored_items=('.git', '.idea', 'venv', '__pycache__',))
@@ -52,7 +52,7 @@ directory_scanner/
 The Directory Scanner library aims to simplify directory scanning tasks by providing a flexible and easy-to-use interface. Whether you need to generate a directory structure for documentation, analysis, or any other purpose, this library offers a convenient solution.
 
 ### Links:
-- [GitHub Repository](https://github.com/Armen-Jean-Andreasian/directory-scanner)
-- [PyPI Package](https://pypi.org/project/directory-scanner/)
+- [GitHub Repository](https://github.com/Armen-Jean-Andreasian/the-directory-scanner)
+- [PyPI Package](https://pypi.org/project/the-directory-scanner/)
 
 ---

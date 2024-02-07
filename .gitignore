@@ -1,3 +1,5 @@
 .idea
 .git
 .pypirc
+/the_directory_scanner.egg-info
+/dist

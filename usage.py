@@ -1,4 +1,4 @@
-from directory_scanner import prettify_structure, scan_directory
+from the_directory_scanner import prettify_structure, scan_directory
 
 scan_result = scan_directory(directory=".",
                              output_file_name="directory_structure.txt",

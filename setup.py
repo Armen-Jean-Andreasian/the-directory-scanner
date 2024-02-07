@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name='directory_scanner',
-    packages=['directory_scanner'],
+    name='the-directory-scanner',
+    packages=['the_directory_scanner'],
     version='1.0',
     license='BSD',
 
