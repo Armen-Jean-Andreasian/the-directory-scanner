@@ -51,7 +51,7 @@ directory_scanner/
 The Directory Scanner library aims to simplify directory scanning tasks by providing a flexible and easy-to-use interface. Whether you need to generate a directory structure for documentation, analysis, or any other purpose, this library offers a convenient solution.
 
 ### Links:
-- [GitHub Repository](https://github.com/your_username/directory-scanner)
+- [GitHub Repository](https://github.com/Armen-Jean-Andreasian/directory-scanner)
 - [PyPI Package](https://pypi.org/project/directory-scanner/)
 
 ---
