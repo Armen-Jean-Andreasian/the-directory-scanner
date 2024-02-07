@@ -1,0 +1,9 @@
+directory_structure.txt
+LICENSE.rst
+README.md
+setup.py
+usage.py
+directory_scanner/
+    directory_structure.txt
+    main.py
+    __init__.py
