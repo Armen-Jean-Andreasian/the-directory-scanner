@@ -2,7 +2,7 @@
 
 The Directory Scanner is a Python library designed to simplify the process of scanning directory structures and generating a comprehensive list of files and folders. It provides a convenient way to recursively traverse directories, ignoring specific files and folders specified by the user.
 
-![](cover.jpg)
+![](.github/cover.jpg)
 ### Features:
 - Recursively scan directories and subdirectories to generate a structured list of files and folders.
 - Exclude specific files and folders from the scan using an ignore list.
