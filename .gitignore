@@ -1,0 +1,6 @@
+.idea
+.git
+.pypirc
+/*.egg-info
+/dist
+*/__pycache__/

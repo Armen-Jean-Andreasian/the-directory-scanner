@@ -1,0 +1,14 @@
+cover.jpg
+directory_structure.txt
+LICENSE.rst
+README.md
+setup.py
+usage.py
+the_directory_scanner/
+    main.py
+    __init__.py
+the_directory_scanner.egg-info/
+    dependency_links.txt
+    PKG-INFO
+    SOURCES.txt
+    top_level.txt
