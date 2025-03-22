@@ -19,7 +19,7 @@ def scan_directory(directory: str = None, output_file_name: str = None, ignored_
     if directory is None:
         directory = "."
 
-    with open(output_file_name, 'w') as f:
+    with open(output_file_name, 'w', encoding='utf-8') as f:
         for root, dirs, files in os.walk(directory):
             level = root.replace(directory, '').count(os.sep)
             indent = ' ' * 4 * level
@@ -48,9 +48,9 @@ def prettify_structure(output_file: str, spaces_to_trim: int, lines_to_trim: int
     :param lines_to_trim: Number of lines to trim from the beginning of the file.
     :return: None
     """
-    with open(output_file, 'r') as f:
+    with open(output_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    with open(output_file, 'w') as f:
+    with open(output_file, 'w', encoding='utf-8') as f:
         for line in lines[lines_to_trim:]:
             f.write(line[spaces_to_trim:])
